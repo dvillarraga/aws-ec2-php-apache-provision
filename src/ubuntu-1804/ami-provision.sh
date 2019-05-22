@@ -5,10 +5,6 @@
 #date           :2019-03-21
 #==============================================================================
 
-###
-# To Run:
-# ./provision-ami-ubuntu-1804.sh install aws-codedeploy-us-west-2
-
 install() {
 # params
 code_deploy_bucket_name=$1

@@ -1,22 +1,20 @@
-AWS Lambda CouchBackup to S3
+AWS EC2 PHP & APACHE Provision
 =========
 
-AWS Lambda functions that backup CouchDB's and push its to S3.
+Provision for EC2 Instances + PHP + Apache in different flavors.
 
-**AWS Lambda functions:**
+**How does it works?**
 
-1. list-couchdbs-call-backup: Get the list of all dbs in a couch server and run backups for each one in async mode.
-2. execute-couch-backup: Function that receive an specific database and a bucket to store the backup. 
-
-Please see the instructions on each function package. 
+1. Please locate your distribution in src/
+2. Please see the instructions on each function package. 
 
 
 Getting Help
 ------------
 
-Please feel free to contact us. You also can [tweet @GsoftCol](http://twitter.com/gsoftcol)!
+Please feel free to contact me. You also can [tweet @dvillarraga](http://twitter.com/dvillarraga)!
 
 Contributing
 ------------
 
-We're always looking for new contributors! If you'd like to try your hand at writing code, writing documentation, designing the website, writing a blog post, or answering [questions on StackOverflow](http://stackoverflow.com/search?tab=newest&q=aws-lambda-couchbackup-to-s3), then we'd love to have your input.
+I'm always looking for new contributors! If you'd like to try your hand at writing code, writing documentation, designing the website, writing a blog post, or answering [questions on StackOverflow](http://stackoverflow.com/search?tab=newest&q=aws-ec2-php-apache-provision), then we'd love to have your input.

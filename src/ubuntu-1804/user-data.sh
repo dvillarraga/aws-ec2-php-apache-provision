@@ -5,18 +5,6 @@
 #date           :2019-03-21
 #==============================================================================
 
-###
-# Please run and configure it on user-data - EC2 AWS:
-###
-#!/bin/bash
-#set -e -u
-#sudo apt-get -y update
-#sudo apt-get install -y awscli
-#aws s3 cp s3://YOUR_BUCKET/configurator-ubuntu-1804.sh /tmp/configurator.sh
-#sudo chmod +x /tmp/configurator.sh
-#/tmp/configurator.sh install DOMAIN_NAME
-#sudo rm -f /tmp/configurator.sh
-
 install() {
 
 domain_name=$1
