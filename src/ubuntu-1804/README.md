@@ -18,6 +18,8 @@ sudo rm /tmp/ami-provision.sh
 
 * Create an AMI based on this Instance.
 
+
+
 2. Setting User Data
 ------------
 
