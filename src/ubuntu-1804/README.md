@@ -26,7 +26,8 @@ sudo rm /tmp/ami-provision.sh
 * On future EC2 Instances, please add in the [User-Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html): 
 
 ```console
-!/bin/bash
+#!/bin/bash
+
 set -e -u
 sudo apt-get -y update
 sudo apt-get install -y awscli
