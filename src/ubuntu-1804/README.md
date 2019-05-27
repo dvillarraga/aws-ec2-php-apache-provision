@@ -30,7 +30,7 @@ sudo rm /tmp/ami-provision.sh
 set -e -u
 sudo apt-get -y update
 sudo apt-get install -y awscli
-wget https://raw.githubusercontent.com/dvillarraga/aws-ec2-php-apache-provision/master/src/ubuntu-1804/user-data.sh -O /tmp
+wget https://raw.githubusercontent.com/dvillarraga/aws-ec2-php-apache-provision/master/src/ubuntu-1804/user-data.sh -O /tmp/user-data.sh
 sudo chmod +x /tmp/user-data.sh
 /tmp/user-data.sh install DOMAIN_NAME
 sudo rm -f /tmp/user-data.sh
