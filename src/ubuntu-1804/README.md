@@ -8,7 +8,7 @@ UBUNTU 18.04 PROVISION
 * Connect using ssh an run:
 
 ```console
-wget https://raw.githubusercontent.com/dvillarraga/aws-ec2-php-apache-provision/master/src/ubuntu-1804/ami-provision.sh -O /tmp
+wget https://raw.githubusercontent.com/dvillarraga/aws-ec2-php-apache-provision/master/src/ubuntu-1804/ami-provision.sh -O /tmp/ami-provision.sh
 sudo chmod +x /tmp/ami-provision.sh
 /tmp/ami-provision.sh install aws-codedeploy-us-west-2
 sudo rm /tmp/ami-provision.sh
