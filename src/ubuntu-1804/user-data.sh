@@ -6,7 +6,7 @@
 #==============================================================================
 
 install() {
-
+sudo mkdir -p /var/www/app/web
 domain_name=$1
 ###
 # Adding default configuration for Apache and PHP
