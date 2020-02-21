@@ -22,6 +22,8 @@ sudo bash -c  "cat > /etc/apache2/conf-enabled/config-apache.conf" << EOF
     SecRuleEngine on
     ServerTokens Full
     SecServerSignature "Microsoft-IIS/6.0"
+    SecRequestBodyLimit 30000000
+    SecRequestBodyInMemoryLimit 30000000
   </IfModule>
 
   <Directory "/">
